@@ -2,7 +2,7 @@
 
 ## Bright colours, easy on the eyes.
 
-![helloworld](./images/example.png)
+![helloworld](./images/hello-world.png)
 
 **Enjoy!**
 
