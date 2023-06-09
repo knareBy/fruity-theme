@@ -1,0 +1,21 @@
+{
+  "name": "fruity-theme",
+  "displayName": "fruity-theme",
+  "description": "Fruit + theme = fruity theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fruity Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Fruity Theme-color-theme.json"
+      }
+    ]
+  }
+}
