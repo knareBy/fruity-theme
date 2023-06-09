@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.79.0"
   },
+  "repository": "https://github.com/knareBy/fruity-theme.git",
   "categories": [
     "Themes"
   ],
