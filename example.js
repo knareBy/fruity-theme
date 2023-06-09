@@ -7,9 +7,7 @@ function nthPrime(n) {
   let currentNumber = 3;
 
   while (primes.length < n) {
-    if (isPrime(currentNumber)) {
-      primes.push(currentNumber);
-    }
+    if (isPrime(currentNumber)) primes.push(currentNumber);
     currentNumber += 2;
   }
 
@@ -18,9 +16,7 @@ function nthPrime(n) {
 
 // Check if a number is prime
 function isPrime(number) {
-  if (number <= 1) {
-    return false;
-  }
+  if (number <= 1) return false;
 
   const sqrt = Math.sqrt(number);
 
@@ -35,16 +31,12 @@ function isPrime(number) {
 
 // Find the largest element in an array
 function findLargestElement(arr) {
-  if (arr.length === 0) {
-    throw new Error("The array is empty.");
-  }
+  if (arr.length === 0) throw new Error("The array is empty.");
 
   let largest = arr[0];
 
   for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > largest) {
-      largest = arr[i];
-    }
+    if (arr[i] > largest) largest = arr[i];
   }
 
   return largest;
