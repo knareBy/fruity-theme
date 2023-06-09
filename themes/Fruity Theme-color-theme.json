@@ -63,7 +63,6 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#C792EA"
 			}
 		},
@@ -84,6 +83,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
+        "fontStyle": "italic",
 				"foreground": "#89DDFF"
 			}
 		},
@@ -108,6 +108,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
+        "fontStyle": "bold",
 				"foreground": "#ffd500"
 			}
 		},
@@ -117,7 +118,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#ff0099"
+				"foreground": "#ffd6ef"
 			}
 		},
 		{
@@ -127,7 +128,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#ff0099"
+				"foreground": "#ffd6ef"
 			}
 		},
 		{
